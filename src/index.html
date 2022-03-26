@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="zh">
 
@@ -37,7 +36,8 @@
         }
     </style>
     <style>
-        body {}
+        body {
+        }
 
         p {
             margin: .3em 0;
@@ -99,7 +99,8 @@
         }
     </style>
     <style>
-        .projects {}
+        .projects {
+        }
 
         .projects p {
             color: #666;
@@ -109,66 +110,73 @@
             color: #f60;
         }
 
-        .projects>ol {
+        .projects > ol {
             margin-top: 0;
             list-style-position: inside;
             padding: 0;
         }
 
-        .projects>ol>li {
+        .projects > ol > li {
             margin-bottom: 24px;
         }
 
-        .projects>ol>li>header {
+        .projects > ol > li > header {
             display: flex;
             justify-content: space-between;
         }
 
-        .projects>ol>li h3 {
+        .projects > ol > li h3 {
             display: inline-block;
         }
     </style>
     <style>
-        .skills {}
+        .skills {
+        }
 
         #skills {
 
             width: 500px;
             height: 270px;
         }
+
         @media print {
-            #skills{display:none;}
+            #skills {
+                display: none;
+            }
         }
 
 
-        .skills>.wrapper {
+        .skills > .wrapper {
             display: flex;
             justify-content: space-between;
         }
 
-        .skills>.wrapper>:first-child {
+        .skills > .wrapper > :first-child {
             margin-right: 24px;
         }
 
-        .skills>.wrapper>#skills {}
+        .skills > .wrapper > #skills {
+        }
 
-        .skills>.wrapper>ul {
+        .skills > .wrapper > ul {
             color: #666;
         }
 
-        .skills>.wrapper strong {
+        .skills > .wrapper strong {
             color: #f60;
         }
 
-        .skills>.wrapper>ul>li {
+        .skills > .wrapper > ul > li {
             line-height: 1.2;
             margin-bottom: 8px;
         }
     </style>
     <style>
-        .openSource {}
+        .openSource {
+        }
 
-        .openSource>h2 {}
+        .openSource > h2 {
+        }
 
         .openSource header img {
             position: absolute;
@@ -176,9 +184,10 @@
             right: 0;
         }
 
-        .openSource>ul {}
+        .openSource > ul {
+        }
 
-        .openSource>ul>li {
+        .openSource > ul > li {
             margin-bottom: 24px;
         }
 
@@ -188,16 +197,20 @@
             justify-content: space-between;
         }
 
-        .openSource h3 {}
+        .openSource h3 {
+        }
     </style>
     <style>
-        .jobs {}
+        .jobs {
+        }
 
-        .jobs>h2 {}
+        .jobs > h2 {
+        }
 
-        .jobs>ol {}
+        .jobs > ol {
+        }
 
-        .jobs>ol>li {
+        .jobs > ol > li {
             margin: 12px 0;
         }
 
@@ -207,17 +220,17 @@
             margin-bottom: 12px;
         }
 
-        .jobs header>h3 {
+        .jobs header > h3 {
             font-size: 18px;
             color: #333;
         }
 
-        .jobs header>h4 {
+        .jobs header > h4 {
             margin-left: 1em;
             font-size: 18px;
         }
 
-        .jobs header>span {
+        .jobs header > span {
             font-size: 18px;
             margin-left: auto;
         }
@@ -244,12 +257,14 @@
             #skills {
                 width: auto;
             }
-            .jobs header{
+
+            .jobs header {
                 flex-direction: column;
             }
-            .jobs header >h3,
-            .jobs header >h4,
-            .jobs header >span {
+
+            .jobs header > h3,
+            .jobs header > h4,
+            .jobs header > span {
                 margin: 0;
             }
         }
@@ -288,14 +303,33 @@
 
                 </p>
                 <p>
-                有效提高开发效率。
+                    有效提高开发效率。
 
                 </p>
                 <p>
                     制作过程让我对 TypeScript 有了新的认识。
                 </p>
             </li>
+            <li>
+                <header>
+                    <h3>云笔记</h3>
+                    <span>
+              <a href="">源码链接(空)</a>
+              <a href="https://ak97z.github.io/hellonote/#/">项目预览</a>
+            </span>
+                </header >
+                <p style="color: red">
+                    一个基于 <strong>React</strong> / <strong>TypeScript</strong> 的移动端单页面应用。
+                </p>
 
+                <p>
+                    这是我从自己的需求出发，设计出的极简记账应用，特点是快速记账，
+                    而且可以通过图表查看消费习惯。
+                </p>
+                <p>
+                    该项目大量使用 <strong>React Hooks</strong>，让我对 Hooks 有了深刻的理解和应用。
+                </p>
+            </li>
             <li>
                 <header>
                     <h3>旺财记账</h3>
@@ -305,6 +339,26 @@
             </span>
                 </header>
                 <p>
+                    一个基于 <strong>React</strong> / <strong>TypeScript</strong> 的移动端单页面应用。
+                </p>
+
+                <p>
+                    这是我从自己的需求出发，设计出的极简记账应用，特点是快速记账，
+                    而且可以通过图表查看消费习惯。
+                </p>
+                <p>
+                    该项目大量使用 <strong>React Hooks</strong>，让我对 Hooks 有了深刻的理解和应用。
+                </p>
+            </li>
+            <li>
+                <header>
+                    <h3>大屏可视化</h3>
+                    <span>
+              <a href="">源码链接</a>
+              <a href="https://ak97z.github.io/big-screen/#/">项目预览</a>
+            </span>
+                </header>
+                <p style="color: red">
                     一个基于 <strong>React</strong> / <strong>TypeScript</strong> 的移动端单页面应用。
                 </p>
 
@@ -328,8 +382,8 @@
                 </header>
                 <p>实现了元素选择、元素创建等常见功能</p>
             </li>
-<!--            <li class="page2">-->
-                <li>
+            <!--            <li class="page2">-->
+            <li>
                 <header>
                     <h3>皮卡丘</h3>
                     <span>
@@ -364,9 +418,9 @@
     <section class="skills">
         <h2>技能</h2>
         <div class="wrapper">
-<!--            <div id="skills"></div>-->
+            <!--            <div id="skills"></div>-->
             <ul>
-                <li>熟悉页面制作技巧，能将设计稿<strong>完美还原</strong> </li>
+                <li>熟悉页面制作技巧，能将设计稿<strong>完美还原</strong></li>
                 <li>熟悉<strong>前后端分离</strong>技术，包括 AJAX、跨域、前端路由、Cookie、Session 等</li>
                 <li>熟练掌握 <strong>Vue全家桶</strong>的使用，包括 VueCli、VueRouter、Vuex 等</li>
                 <li>熟练掌握 React全家桶的使用，包括 create-react-app、ReactRouter、Redux 等</li>
@@ -380,43 +434,44 @@
         <h2>教育经历</h2>
         <p>
             <span><time>2015年</time>~<time>2019年</time></span>
-            四川大学锦江学院 本科 工程造价 </p>
+            四川大学锦江学院 本科 工程造价
+        </p>
     </section>
-<!--    <section class="jobs">-->
-<!--        <h2>工作经历</h2>-->
-<!--        <ol>-->
-<!--            <li>-->
-<!--                <header>-->
-<!--                    <h3> 彩云工作室 </h3>-->
-<!--                    <h4>全栈开发工程师（Ruby+JS）</h4>-->
-<!--                    <span><time>2017年1月</time>~<time>2018年1月</time></span>-->
-<!--                </header>-->
-<!--                <ul>-->
-<!--                    <li>-->
-<!--                        独立负责 iPad 客户端的后台 <strong>Rails</strong> 开发和前端开发工作-->
-<!--                    </li>-->
-<!--                    <li>-->
-<!--                        负责团队基础库开发、单元测试、文档撰写，确保测试<strong>覆盖率达到 90%</strong> 以上-->
-<!--                    </li>-->
-<!--                    <li>-->
-<!--                        作为前端骨干，负责给前端较弱的同事进行培训，提高其前端开发工作效率-->
-<!--                    </li>-->
-<!--                </ul>-->
-<!--            </li>-->
-<!--            <li>-->
-<!--                <header>-->
-<!--                    <h3>哦外巴巴集团杭州总部</h3>-->
-<!--                    <h4>开发工程师</h4>-->
-<!--                    <span><time>2015年1月</time>~<time>2017年1月</time></span>-->
-<!--                </header>-->
-<!--                <ul>-->
-<!--                    <li>独立负责某 CRM 系统的开发与维护（后端使用Groovy，前端使用JS）</li>-->
-<!--                    <li>负责全部门 <strong>UI 框架的开发</strong>，包括对话框、<strong>树形组件</strong>、<strong>日期选择器</strong>等常用组件</li>-->
-<!--                    <li>定期组织内部分享，包括 Git 的使用、<strong>ES6 新特性</strong>、TypeScript 等话题</li>-->
-<!--                </ul>-->
-<!--            </li>-->
-<!--        </ol>-->
-<!--    </section>-->
+    <!--    <section class="jobs">-->
+    <!--        <h2>工作经历</h2>-->
+    <!--        <ol>-->
+    <!--            <li>-->
+    <!--                <header>-->
+    <!--                    <h3> 彩云工作室 </h3>-->
+    <!--                    <h4>全栈开发工程师（Ruby+JS）</h4>-->
+    <!--                    <span><time>2017年1月</time>~<time>2018年1月</time></span>-->
+    <!--                </header>-->
+    <!--                <ul>-->
+    <!--                    <li>-->
+    <!--                        独立负责 iPad 客户端的后台 <strong>Rails</strong> 开发和前端开发工作-->
+    <!--                    </li>-->
+    <!--                    <li>-->
+    <!--                        负责团队基础库开发、单元测试、文档撰写，确保测试<strong>覆盖率达到 90%</strong> 以上-->
+    <!--                    </li>-->
+    <!--                    <li>-->
+    <!--                        作为前端骨干，负责给前端较弱的同事进行培训，提高其前端开发工作效率-->
+    <!--                    </li>-->
+    <!--                </ul>-->
+    <!--            </li>-->
+    <!--            <li>-->
+    <!--                <header>-->
+    <!--                    <h3>哦外巴巴集团杭州总部</h3>-->
+    <!--                    <h4>开发工程师</h4>-->
+    <!--                    <span><time>2015年1月</time>~<time>2017年1月</time></span>-->
+    <!--                </header>-->
+    <!--                <ul>-->
+    <!--                    <li>独立负责某 CRM 系统的开发与维护（后端使用Groovy，前端使用JS）</li>-->
+    <!--                    <li>负责全部门 <strong>UI 框架的开发</strong>，包括对话框、<strong>树形组件</strong>、<strong>日期选择器</strong>等常用组件</li>-->
+    <!--                    <li>定期组织内部分享，包括 Git 的使用、<strong>ES6 新特性</strong>、TypeScript 等话题</li>-->
+    <!--                </ul>-->
+    <!--            </li>-->
+    <!--        </ol>-->
+    <!--    </section>-->
     <section class="others">
         <h2>其他链接</h2>
         <ul>
